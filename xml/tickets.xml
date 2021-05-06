@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- list of tickets -->
+<tickets xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="tickets.xsd">
+  <!-- status attribute helps to know the status of the ticket: opened, in-process, closed -->
+  <ticket status="closed">
+    <id>0001</id>
+    <issuerId>0001</issuerId>
+    <issueDateTime>2021-01-12T15:32:01</issueDateTime>
+    <closureDateTime>2021-01-12T16:09:07</closureDateTime>
+    <subject> billing mistake</subject>
+    <description>Last month, I got charged more than I am supposed to for my electricity bill.</description>
+    <!-- list of messages in the process of resolving the issue. 
+			 If another support staff member take over the ticket, it leads to
+			 another supportMessage tag. -->
+    <supportMessages>
+      <!-- sender id enables to know who sent a specific message -->
+      <message sender="0003">
+        <sendingDateTime>2021-01-12T16:01:34</sendingDateTime>
+        <content>Hi, my name is Gerard. I am the agent working on your case. Your problem is that you got overcharged for your electricity bill, right?</content>
+      </message>
+      <message sender="0001">
+        <sendingDateTime>2021-01-12T16:02:04</sendingDateTime>
+        <content>Yes</content>
+      </message>
+      <message sender="0003">
+        <sendingDateTime>2021-01-12T16:03:01</sendingDateTime>
+        <content>Ok. Could you give me further details please ?</content>
+      </message>
+      <message sender="0001">
+        <sendingDateTime>2021-01-12T16:04:03</sendingDateTime>
+        <content>of course. In fact, last month I got mistakenly charged $100 instead of $80 for my electricity bill.</content>
+      </message>
+      <message sender="0003">
+        <sendingDateTime>2021-01-12T16:04:43</sendingDateTime>
+        <content>Ok. Give me a minute to check it.</content>
+      </message>
+      <message sender="0003">
+        <sendingDateTime>2021-01-12T16:05:43</sendingDateTime>
+        <content>You are right. You was supposed to get charged $80. I am going to issue a reimbursement ticket for you so that  the extra we have charged you will be return into your credit card.</content>
+      </message>
+      <message sender="0001">
+        <sendingDateTime>2021-01-12T16:06:07</sendingDateTime>
+        <content>Thanks</content>
+      </message>
+      <message sender="0003">
+        <sendingDateTime>2021-01-12T16:07:07</sendingDateTime>
+        <content>It is done. you will receive an email about that, and give 5 business days for it to appear on your credit statement. It was a pleasure to help with that.</content>
+      </message>
+      <message sender="0001">
+        <sendingDateTime>2021-01-12T16:07:47</sendingDateTime>
+        <content>got it. thanks a lot.</content>
+      </message>
+      <message sender="0003">
+        <sendingDateTime>2021-01-12T16:08:07</sendingDateTime>
+        <content>You are welcome. bye</content>
+      </message>
+    </supportMessages>
+  </ticket>
+  <ticket status="opened">
+    <id>0002</id>
+    <issuerId>0002</issuerId>
+    <issueDateTime>2021-01-14T11:52:01</issueDateTime>
+    <subject> billing mistake</subject>
+    <description> I got charged twice for my electricity bill of last month.</description>
+  </ticket>
+  <ticket status="in-process">
+    <id>0003</id>
+    <issuerId>0005</issuerId>
+    <issueDateTime>2021-01-15T09:22:01</issueDateTime>
+    <subject> power outage</subject>
+    <description> I have no more electricity at home.</description>
+    <supportMessages>
+      <message sender="0004">
+        <sendingDateTime>2021-01-15T10:01:34</sendingDateTime>
+        <content>Hi, my name is Fred. I am the agent working on your case. Your problem is that you don't have electricity at home, right?</content>
+      </message>
+      <message sender="0005">
+        <sendingDateTime>2021-01-15T10:02:04</sendingDateTime>
+        <content>Yes, I don't.</content>
+      </message>
+      <message sender="0004">
+        <sendingDateTime>2021-01-15T10:03:01</sendingDateTime>
+        <content>Ok. Could you give me further details please ?</content>
+      </message>
+      <message sender="0005">
+        <sendingDateTime>2021-01-15T10:04:03</sendingDateTime>
+        <content>of course. In fact, I plugged in a new microwave that I bought yesterday and after that the light has gone.</content>
+      </message>
+      <message sender="0004">
+        <sendingDateTime>2021-01-15T10:04:23</sendingDateTime>
+        <content>Ok. We are going to send you a technician to check that. When are you available for a technician to come to your house?</content>
+      </message>
+      <message sender="0005">
+        <sendingDateTime>2021-01-15T10:05:13</sendingDateTime>
+        <content>Everyday from 10 am to 3pm</content>
+      </message>
+      <message sender="0004">
+        <sendingDateTime>2021-01-15T10:06:02</sendingDateTime>
+        <content> ok, does today at 2:15 pm work?</content>
+      </message>
+      <message sender="0005">
+        <sendingDateTime>2021-01-15T10:06:37</sendingDateTime>
+        <content>yes, it does.</content>
+      </message>
+      <message sender="0004">
+        <sendingDateTime>2021-01-15T10:07:47</sendingDateTime>
+        <content>the appointment is confirmed. so a technician will come to your house today at 2:15pm. Be there to explain everything to the technician, and let us know if the problem is fixed or not.</content>
+      </message>
+      <message sender="0005">
+        <sendingDateTime>2021-01-15T10:08:07</sendingDateTime>
+        <content>ok, thanks</content>
+      </message>
+      <message sender="0004">
+        <sendingDateTime>2021-01-15T10:08:37</sendingDateTime>
+        <content>You are welcome. bye</content>
+      </message>
+    </supportMessages>
+  </ticket>
+  <ticket status="opened">
+    <id>0004</id>
+    <issuerId>0001</issuerId>
+    <issueDateTime>2021-05-06T15:00:49</issueDateTime>
+    <subject>power outage</subject>
+    <description>I don't have power in my house anymore.</description>
+    <supportMessages>
+      <message sender="0001">
+        <sendingDateTime>2021-05-06T15:03:09</sendingDateTime>
+        <content>hi sir,</content>
+      </message>
+    </supportMessages>
+  </ticket>
+</tickets>

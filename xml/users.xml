@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!-- list of users of our system -->
+<users xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="users.xsd">
+	<!-- attribute type enable to distinguish the user types  'client' for customer and 'staff' for support staff member -->
+	<user type="client">
+		<id>0001</id>
+		<name>
+			<firstName>Freddy</firstName>
+			<lastName>Sam</lastName>
+		</name>
+		<username>Fred2000</username>
+		<!-- md5 hashed password /(?=([A-F0-9]{32}))/ -->
+		<password>$2y$10$8NV/rFCIP8JiEpgYWq64HONDVCeHVUteBa4YRTnpPVjiwK9H4MZ/u</password>
+		<contact>
+			<phone>416-678-9900</phone>
+			<email>Fredsam@gmail.com</email>
+		</contact>
+	</user>
+	<user type="client">
+		<id>0002</id>
+		<name>
+			<firstName>Stephen</firstName>
+			<lastName>Omar</lastName>
+		</name>
+		<username>Omar567</username>
+		<password>$2y$10$OZDYFTU5EV8ShwsQmqoxIehaMs3Zjfld3gYCgPD8/b/8f6vZmtoQG</password>
+		<contact>
+			<phone>416-968-9401</phone>
+			<email>stephenomar@gmail.com</email>
+		</contact>
+	</user>	
+	<user type="staff">
+		<id>0003</id>
+		<name>
+			<firstName>Gerard</firstName>
+			<lastName>Cole</lastName>
+		</name>
+		<username>Cole2740</username>
+		<password>$2y$10$vq7DoRyIfi94iFBvqrmGp.Jgo4TQifLzc.VPTbZEPSCLsWivjv7tK</password>
+		<contact>
+			<phone>416-448-9923</phone>
+			<email>gerardcole@gmail.com</email>
+		</contact>
+	</user>	
+	<user type="staff">
+		<id>0004</id>
+		<name>
+			<firstName>Fred</firstName>
+			<lastName>Gola</lastName>
+		</name>
+		<username>Gola2330</username>
+		<password>$2y$10$kwMD4qU4Tv8ri8GKmKRhS.RIw8yR1.PbDMPfVVcPYeIVyKSCmmbQe</password>
+		<contact>
+			<phone>512-988-9970</phone>
+			<email>fredgola@gmail.com</email>
+		</contact>
+	</user>
+	<user type="client">
+		<id>0005</id>
+		<name>
+			<firstName>Anne</firstName>
+			<lastName>Carton</lastName>
+		</name>
+		<username>Ann2021</username>
+		<password>$2y$10$5sKAlsvsYOI6KNe/3RfBgO/hgracPm4weQiCSrLgbvHDyBP3QnjY6</password>
+		<contact>
+			<phone>416-555-9876</phone>
+			<email>anncarton@gmail.com</email>
+		</contact>
+	</user>			
+</users>

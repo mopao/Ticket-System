@@ -1,0 +1,53 @@
+th{
+	text-transform: capitalize;
+}
+
+tr{
+	cursor: pointer;
+}
+
+body{
+	padding: 2em 0em;
+}
+h1,h2{
+	text-transform: uppercase;
+	padding-bottom: 0.5em;
+}
+
+nav {
+	float: left;
+	width: 100%;
+}
+
+nav a {
+	position: absolute;
+	right: 1.2em;
+	top: 1em;
+}
+
+div.table-responsive{
+	height: 25em;
+	overflow-y: scroll;
+	background-color: #f3f4ed;
+}
+
+form{
+	margin: 2em 0em;
+}
+
+input[type="submit"]{
+	display: inline-block;
+	margin: 1em 0em;
+	background-color: black;
+	color: white;
+	border-radius: 5px;
+}
+textarea{
+	width: 60%;
+}
+
+@media screen and (max-width: 500px) {
+	textarea{
+		width: 100%;
+	}
+}
