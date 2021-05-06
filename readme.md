@@ -18,3 +18,13 @@ Password: AC@mp226
 Username: Gola2330
 
 Password: FG@he456
+
+## Views
+
+![Flights search form](https://github.com/mopao/Ticket-System/blob/main/imgs/readme/login-page.png)
+
+
+![Itinerary map](https://github.com/mopao/Ticket-System/blob/main/imgs/readme/list-tickets.png)
+
+
+![Flights list](https://github.com/mopao/Ticket-System/blob/main/imgs/readme/ticket-details.png)
