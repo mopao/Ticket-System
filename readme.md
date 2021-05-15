@@ -1,6 +1,6 @@
 # Ticket System
 
-**Website:** [Ticket System](https://www.franckcheuzem.ca/XML-TicketSystem/index.php)
+**Website:** [Ticket System](https://xml-ticket-system.franckcheuzem.ca)
 
 
 ## Description
